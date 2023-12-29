@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-void main() {
+int main() {
   int a;
   printf("Enter number/alphabets/symbols/special characters");
-  scanf("%d",&a);
+  scanf(" %c",&a);
   if(a > 33 && a < 48)
     printf("Symbols");
   else if(a > 48 && a < 58)
